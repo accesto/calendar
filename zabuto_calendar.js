@@ -667,6 +667,19 @@ $.fn.zabuto_calendar_language = function (lang) {
                 dow_labels: ["Pts", "Salı", "Çar", "Per", "Cuma", "Cts", "Paz"]
             };
             break;
+
+        case 'uk':
+            return {
+                month_labels: ["Січень", "лютий", "березень", "Квітень", "травень", "червень", "липень", "серпень", "вересень", "жовтень", "листопад", "грудень"],
+                dow_labels: ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Нд"]
+            };
+            break;
+        default:
+            return {
+                month_labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                dow_labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+            };
+            break;
     }
 
 };
